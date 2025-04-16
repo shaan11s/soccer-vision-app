@@ -1,0 +1,47 @@
+# --- Python ---
+venv/
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+*.pkl
+*.log
+
+# --- Environment & Config ---
+.env
+*.env
+.env.*
+
+# --- Gradio session cache ---
+gradio_cached_examples/
+
+# --- VSCode project settings ---
+.vscode/
+
+# --- YOLOv8 output folders ---
+runs/
+track/
+detect/
+labels/
+weights/
+
+# --- Model weights ---
+*.pt
+*.pth
+
+# --- Videos & Results ---
+*.mp4
+*.avi
+*.mov
+results/uploads/
+results/outputs/
+
+# --- MacOS ---
+.DS_Store
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- __pycache__ and other temp files ---
+*.swp
+*.tmp
