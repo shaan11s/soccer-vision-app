@@ -18,13 +18,13 @@ Juega Vision is a computer vision app that automatically analyzes soccer videos 
 ---
 
 ### VENV
+
 python3 -m venv venv
 source venv/bin/activate
 
 ### DEPENDENCIES
-pip install ultralytics gradio opencv-python
 
-python app.py
+pip install ultralytics gradio opencv-python
 
 ---
 
@@ -35,4 +35,5 @@ clone repo and run app.py!
 ```bash
 git clone https://github.com/your-username/soccer-vision-app.git
 cd soccer-vision-app
+python app.py
 
